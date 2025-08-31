@@ -1,4 +1,4 @@
-# NexusCloud - Next generation cloud automation
+# NexusCloud - Cloud-Native Infrastructure Automation Platform
 
 > **Enterprise-grade infrastructure that scales on demand — across regions, services, and environments.**
 
