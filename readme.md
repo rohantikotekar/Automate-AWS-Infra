@@ -100,7 +100,8 @@ This project showcases the ability to design, deploy, and manage cloud infrastru
 ---
 
 ## 📌 Resume Description
-- Engineered 12+ reusable Terraform modules automating VPC, subnet, security group, and load balancer provisioning with cross-AZ failover in <60 seconds.
+- Engineered 12+ reusable Terraform modules automating VPC, subnet, security group, and load balancer provisioning with cross-AZ failover in <60 seconds. (Health check interval: 30 seconds
+Unhealthy threshold: 2 failed checks = 60 seconds max to detect failure)
 - Implemented Application Load Balancer with intelligent auto-scaling that dynamically scales from 2-20 EC2 instances based on real-time traffic, achieving 40% cost reduction during low-traffic periods  
 - Integrated S3 + CloudFront CDN architecture delivering static assets with 95% cache hit ratio and 68% latency reduction for users across 6 geographic regions
 - Implemented resource tagging strategy and monitoring that provides real-time cost attribution across projects, resulting in 30% infrastructure cost optimization  
