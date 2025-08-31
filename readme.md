@@ -5,7 +5,7 @@
 NexusCloud is a **production-ready, infrastructure-as-code solution** inspired by enterprise best practices, built to automate **scalable AWS deployments**.  
 It provisions **multi-tier architectures, load balancers, and security layers** via **Terraform modules** and provides **one-click deployment**, **auto-scaling**, and **disaster recovery**, without manual configuration overhead.
 ---
-## Architecture
+## 🏗 Architecture
 
 <img width="1222" height="609" alt="NexusCloud Architecture" src="https://github.com/user-attachments/assets/3f670bbc-9f11-4786-87a0-9cbc4661b7df" />
 
@@ -42,51 +42,6 @@ It provisions **multi-tier architectures, load balancers, and security layers** 
   - Streamlined Terraform apply/destroy workflows  
   - Consistent environment provisioning across all stages  
   - Automated resource tagging and cost allocation
-
----
-
-## 🏗 Architecture Overview
-
-```mermaid
-flowchart TD
-    subgraph Internet
-        A[Users] --> B[Internet Gateway]
-    end
-
-    subgraph VPC
-        B --> C[Application Load Balancer]
-        
-        subgraph Public_Subnets
-            C --> D[Web/App Server 1]
-            C --> E[Web/App Server 2]
-        end
-        
-        subgraph Private_Subnets
-            D --> F[Database Instance]
-            E --> F
-        end
-    end
-
-    subgraph Static_Content
-        G[S3 Bucket] --> H[CloudFront CDN]
-        H --> A
-    end
-
-    subgraph Security
-        I[Security Groups] --> D
-        I --> E
-        I --> F
-        J[Network ACLs] --> Public_Subnets
-        J --> Private_Subnets
-    end
-
-    subgraph Monitoring
-        K[CloudWatch] --> D
-        K --> E
-        K --> F
-        K --> C
-    end
-```
 
 ---
 
