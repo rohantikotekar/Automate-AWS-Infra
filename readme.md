@@ -5,7 +5,10 @@
 NexusCloud is a **production-ready, infrastructure-as-code solution** inspired by enterprise best practices, built to automate **scalable AWS deployments**.  
 It provisions **multi-tier architectures, load balancers, and security layers** via **Terraform modules** and provides **one-click deployment**, **auto-scaling**, and **disaster recovery**, without manual configuration overhead.
 ---
-![Architecture](aws-architecture-diagram.png "AWS_Architecture")
+## Architecture
+
+<img width="1222" height="609" alt="NexusCloud Architecture" src="https://github.com/user-attachments/assets/3f670bbc-9f11-4786-87a0-9cbc4661b7df" />
+
 ---
 
 ## ✨ Features
@@ -144,6 +147,6 @@ This project showcases the ability to design, deploy, and manage cloud infrastru
 ---
 
 ## 🧑‍💻 Author
-**Your Name** — DevOps Engineer passionate about cloud automation, infrastructure as code, and scalable system design.
+**Rohan Tikotekar** — DevOps Engineer passionate about cloud automation, infrastructure as code, and scalable system design.
 
-📫 Reach me: [LinkedIn](https://linkedin.com/in/your-profile) | [Portfolio](https://github.com/your-username)
+📫 Reach me: https://www.linkedin.com/in/rohan-tikotekar
