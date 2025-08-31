@@ -29,7 +29,6 @@ It provisions **multi-tier architectures, load balancers, and security layers** 
   - IAM roles and policies following AWS Well-Architected Framework
 
 - **⚡ Performance Optimization**  
-  - CloudFront CDN integration for static content delivery  
   - S3 bucket optimization for asset storage  
   - Multi-AZ deployment for high availability and fault tolerance
 
@@ -73,7 +72,6 @@ Access your deployed application at the Load Balancer DNS provided in output.
 
 - **99.9%** uptime across multiple availability zones  
 - **Auto-scaling** from 2 to 20 instances based on demand  
-- **<100 ms** response times with CloudFront CDN integration  
 - Supports **10,000+ concurrent users** with horizontal scaling
 
 ---
